@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Basic HTML Tables</h1>
+    <table border="1" style="text-align: center; margin-left: auto; margin-right: auto; width: 50%; height: 200px;">
+        <thead>
+           <th>Student Id</th>
+           <th>Student Name</th>
+           <th>Gender</th>
+           <th>Age</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Saurabh</td>
+                <td>Male</td>
+                <td rowspan="3">24</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ram</td>
+                <td>Male</td>
+                <!-- <td>25</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shayam</td>
+                <td>Male</td>
+                <!-- <td>20</td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sita</td>
+                <td>Female</td>
+                <td>23</td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+    <h2 style="text-align: center;">Time Table</h2>
+    <table border="1" style="text-align: center; margin-left: auto; margin-right: auto; width: 50%; height: 200px; margin-top: 25px;">
+        <tr>
+            <td rowspan="3">Day</td>
+            <td colspan="3">Seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">Schedule</td>
+            <td rowspan="2">Topic</td>
+        </tr>
+
+        <tr>
+            <td>Begin</td>
+            <td>End</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">9:00 a.m</td>
+            <td rowspan="2">5:00 p.m</td>
+            <td >Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTH and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m</td>
+            <td>11:00 a.m</td>
+            <td rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 a.m</td>
+            <td>2:00 p.m</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m</td>
+            <td>5:00 p.m</td>
+            <td>XSL Transformations</td>
+        </tr>
+        
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m</td>
+            <td>12:00 p.m</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
