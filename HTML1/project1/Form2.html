@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+    <h1>Job Applicaton</h1>
+    <label for="name">Name : </label>
+    <input type="text" id="name">
+    <br/>
+    <br>
+    <label for="email">Email : </label>
+    <input type="text" id="email">
+
+    <br/>
+    <br>
+    <label for="phone">Phone : </label>
+    <input type="tel" id="phone">
+    <br/>
+    <br>
+    <label for="resume">Resume   : </label>
+    <input type="file">
+    <br>
+    <br>
+    <label for="num">Experience(Years):</label>
+    <input type="number" id="num" min="1" max="10">
+
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html">
+        
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id="css">
+       
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="javascript">
+
+        <label for="r">React-js</label>
+        <input type="checkbox" id="r">
+        
+        <label for="c++">C++</label>
+        <input type="checkbox" id="c++">
+       
+        <label for="Spring">Spring Boot</label>
+        <input type="checkbox" id="Spring">
+    </fieldset>
+    <br>
+    <label for="occupation">Highest Education: </label>
+    <select name"occupation" id="occupation">
+        <option value="student">B-tech</option>
+        <option value="profession">12</option>
+        <option value="other">10</option>
+    </select>
+
+    <fieldset>
+        <legend>Avability :</legend>
+        
+        <label for="job">Part-Time</label>
+        <input type="radio" name="radio" id="job">
+        <br>
+        <label for="job">Full-Time</label>
+        <input type="radio" name="radio" id="job">
+    </fieldset>
+   
+    <br>
+    <br>
+    <label for="testarea">Additional</label><br>
+    <textarea name="textarea" id="testarea" cols="30" rows="2"></textarea>
+    <br>
+    <br>
+    <button>Submit</button>
+</body>
+</html>
