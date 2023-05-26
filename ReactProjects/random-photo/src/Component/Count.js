@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 
 function Count() {
-    const [count,setcount]=useState(0);
+  
+  const [count,setcount]=useState(0);
 
   return (
     <div>
-      <h1>Count</h1>
-      <button onClick={
-        ()=>setcount(count+1)
-        }>Count {count}
-      </button>
+      Count : {count}
+      <button onClick={()=>setcount(count+1)}>Increment</button>
+      <button onClick={()=>setcount(count-1)}>Decrement</button>
+      <button onClick={()=>setcount(0)}>Zero</button>
     </div>
   )
 }
