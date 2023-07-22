@@ -1,0 +1,41 @@
+.sidebar {
+    width: 80px;
+    background-color: #111010;
+    height: 100vh;
+    position: fixed;
+    padding: 5px;
+    top: 0;
+    left: 0;
+   
+    
+  }
+  
+  .logo {
+    width: 70px; 
+    height: auto;
+
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+   
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #faf8f8;
+    border-radius: 2px;
+  }
+  .sidebar ul li a:hover{
+    background-color: #757373;
+    color: orange;
+    padding: 5px;
+  }
+
+  
+  

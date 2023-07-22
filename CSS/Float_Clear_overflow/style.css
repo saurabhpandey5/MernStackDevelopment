@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+}
+#img1{
+    float: left;
+    width: 200px;
+    height: 200px;
+    /* clear: right; */
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+#img2{
+    float: left;
+    width: 200px;
+    height: 200px;
+    clear: left;
+    margin-right: 10px;
+}
+#img3{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}

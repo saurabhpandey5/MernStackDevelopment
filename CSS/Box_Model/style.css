@@ -1,0 +1,41 @@
+h1{
+    background-color: aqua;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black ; */
+    border:solid 3px rgb(101, 10, 10);
+    border-radius: 10px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+
+    /* border-top: solid yellow 5px; */
+    width: 300px;
+    text-align: center;
+}
+/* spam{
+    border:solid 3px rgb(101, 10, 10);
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+} */
+.first{
+    background-color:rgb(117, 131, 198) ;
+    border:solid 3px rgb(101, 10, 10);
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px;
+    margin: 40px;
+    
+}
+.second{
+    background-color: bisque;
+    border:solid 3px rgb(101, 10, 10);
+    border-radius: 10px;
+    width: 400px;
+}
+.third{
+    background-color: aquamarine;
+    border:solid rgb(101, 10, 10) 5px;
+    border-radius: 10px;
+    width: 400px;
+}

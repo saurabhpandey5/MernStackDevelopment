@@ -1,0 +1,22 @@
+.custom-spinner::before {
+    content: '';
+    display: inline-block;
+    width: 0.4em; /* Adjust the thickness of the dotted line */
+    height: 0.4em; /* Adjust the thickness of the dotted line */
+    border-radius: 50%;
+    border: 0.2em dotted #000; /* Adjust the color of the dotted line */
+    margin-right: 0.2em; /* Adjust the spacing between dots */
+    animation: custom-spinner-animation 0.6s linear infinite;
+  }
+  
+  @keyframes custom-spinner-animation {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }

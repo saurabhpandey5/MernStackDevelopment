@@ -1,0 +1,32 @@
+.container{
+    width: 500px;
+    height:500px;
+    margin-left: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.box{
+    background-color: rgb(161, 102, 204);
+    width: 330;
+    height: 330;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid brown;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 10px 15px  50px rgb(43, 5, 5);
+}
+h2{
+    text-shadow: 12px 12px 2px white;
+}
+img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 20px;
+}

@@ -1,0 +1,26 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(23, 24, 24);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+  }
+  
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+  }
+  .card-button{
+     padding: 4px;
+     width: 70px;
+     border-radius: 15px;
+     color: orange;
+     cursor: pointer;
+  }
+  
+  

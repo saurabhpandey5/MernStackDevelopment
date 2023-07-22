@@ -1,0 +1,25 @@
+.popup {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #100f0f;
+  bottom: 0;
+  top: 10px;
+  left: 100px;
+  width: 1150px;
+  height: 40px;
+  
+}
+.close {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+.text {
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

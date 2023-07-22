@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(5, 83, 119);
+}
+h1{
+    background-color: aqua;
+}
+p{
+    text-align: center;
+    background-color: rgb(224, 141, 34);
+}
+
+#artile1{
+    background-color: green;
+}
+.city{
+    background-color: blueviolet;
+}
+
+p,city{
+    width: 500px;
+}
