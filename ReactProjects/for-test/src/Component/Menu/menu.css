@@ -1,0 +1,20 @@
+.accordion-button {
+  background-color: #313131 !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.offcanvas {
+  background-color: #313131 !important;
+}
+.offcanvas-body{
+    margin-top: 100px;
+}
+.accordion-body {
+  background-color: #313131;
+}
+.accordion-button:not(.collapsed)::after{
+    background-color: rgb(231, 109, 16) !important;
+    color:red !important;
+}
+
+  

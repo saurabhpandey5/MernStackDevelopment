@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1250px;
+    height: 1000px;
+    background-color: antiquewhite;
+}
+.box{
+    width: 350px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+    animation-name: rightMovement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes rightMovement{
+    from{
+        top:0;
+        left: 0;
+    }
+    to{
+       top: 0;
+       left: 900px;
+    }
+}
+
+.box1{
+    width: 350px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+    animation-name: leftMovement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes leftMovement{
+    from{
+        top:350px;
+        left: 900px;
+    }
+    to{
+       top:350px;
+       left: 0px;
+    }
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    margin: 10px;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    animation-name: upperMovement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes upperMovement{
+    0%{
+        top: 1%;
+        left: 5%;
+    }
+    10%{
+        top: 5%;
+        left: 90%;
+    }
+    60%{
+        top: 90%;
+        left: 10%;
+    }
+    100%{
+        top: 95%;
+        left: 90%;
+    }
+    
+}

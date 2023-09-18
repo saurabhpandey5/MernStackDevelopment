@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1270px;
+    height:573px;
+    background-color: rgb(90, 186, 154);
+}

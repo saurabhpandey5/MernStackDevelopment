@@ -1,0 +1,16 @@
+#print the Original Property of array 
+
+
+Array.prototype.love="love me";
+
+const new1=[1,2,3,4];
+for(let v in new1){
+  console.log(v);
+}
+
+
+for(let l in new1){
+  if(new1.hasOwnProperty(l)){
+    console.log(l);
+  }
+}
